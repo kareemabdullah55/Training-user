@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+#data-table{
+    display: none;
+    background-color:#a4b9bc14;
+    padding: 10px 23px;
+    justify-self: unset;
+    border-radius: 5px;
+    border-color: #c0d3d43f;  
+  }
+  th{
+    color: white;
+    background-color: #071952;
+  }
+  tr{
+    background-color:rgba(128, 128, 128, 0.023);
+  }
+  a{
+    background-color:rgba(128, 128, 128, 0.023);
+    color:red;
+    text-decoration:none;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius:4px;
+    display:flex;
+    align-items:center;  
+    gap:20px;
+    transition:.5s;
+  }
+  .hidden{
+    display: none;
+  }
+  #no-result{
+    color: red;
+    display: none;
+    background-color: #071952;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+img{
+    width: 18%;
+}
+body{
+background-color: rgba(83, 81, 81, 0.125)  ;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+padding: auto;
+
+}
+  .logo img{
+    width: 11%;
+    padding: 10%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .container{
+    padding: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(83, 81, 81, 0.125)  ;
+    border-radius: 5px;
+  }
+
+  .container input{
+    padding: 10px 20px;
+    background-color:#ccc;
+    outline: none;
+    border-radius: 5px;
+    border-color: red
+  }
+  .container button{
+    padding: 10px 72px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+  }
+
+  @media  (max-width:500px){
+
+      img{
+        width: 45%;
+    }   
+   
+    .logo img{
+      width: 13%;
+      padding: 0%;
+      position: absolute;
+      top: 37%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  }
+  @media  (max-width:1300px){
+    .logo img{
+      width: 13%;
+      padding: 0%;
+      position: absolute;
+      top: 37%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    img{
+      width: 20%;
+  }
+  }
